@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lubwama Dickson- Portfolio</title>
+    <meta
+      name="description"
+      content="Lubwama Dickson Portfolio – Backend Developer specializing in Django, Tkinter, and Python projects."
+    />
+    <meta
+      name="keywords"
+      content="Lubwama Dickson, Django, Python, Portfolio, Tkinter, Backend Developer"
+    />
+    <meta name="author" content="Lubwama Dickson" />
     <link
       rel="stylesheet"
       href="https://bootswatch.com/5/cyborg/bootstrap.min.css"
@@ -78,7 +87,12 @@
             <a href="#contact" class="btn btn-primary btn-lg me-2"
               >Contact Me</a
             >
-            <a href="#" class="btn btn-outline-primary btn-lg">Download CV</a>
+            <a
+              href="files/DICKSON_CV.pdf"
+              download
+              class="btn btn-outline-primary btn-lg"
+              >Download CV</a
+            >
           </div>
           <div class="col-lg-6 animate__animated animate__fadeInRight">
             <div class="text-center">
@@ -92,7 +106,6 @@
         </div>
       </div>
     </section>
-
     <!-- About Section -->
     <section id="about" class="py-3 bg-light">
       <div class="container py-2">
@@ -117,7 +130,6 @@
         </div>
       </div>
     </section>
-
     <!-- Projects Section -->
     <section id="projects" class="py-3">
       <div class="container py-2">
@@ -145,7 +157,6 @@
               </div>
             </div>
           </div>
-
           <!-- Web Project 2 -->
           <div
             class="col-md-4 animate__animated animate__fadeInUp animate-delay-1"
@@ -170,7 +181,6 @@
               </div>
             </div>
           </div>
-
           <!-- Web Project 3 -->
           <div
             class="col-md-4 animate__animated animate__fadeInUp animate-delay-1"
@@ -200,7 +210,6 @@
             </div>
           </div>
         </div>
-
         <h3 class="text-white mt-5 mb-4">DESKTOP GUI PROJECTS</h3>
         <div class="row g-4">
           <!-- Desktop Project 1 -->
@@ -226,7 +235,6 @@
               </div>
             </a>
           </div>
-
           <!-- Desktop Project 2 -->
           <div
             class="col-md-4 animate__animated animate__fadeInUp animate-delay-1"
@@ -246,7 +254,6 @@
               </div>
             </div>
           </div>
-
           <!-- Desktop Project 3 -->
           <div
             class="col-md-4 animate__animated animate__fadeInUp animate-delay-2"
@@ -269,7 +276,6 @@
         </div>
       </div>
     </section>
-
     <!-- Skills Section -->
     <section id="skills" class="py-3 bg-light">
       <div class="container py-2">
@@ -289,7 +295,6 @@
                 ></div>
               </div>
             </div>
-
             <div class="skill-item">
               <div class="d-flex justify-content-between mb-2">
                 <span class="text-white">Tkinter</span>
@@ -303,7 +308,6 @@
                 ></div>
               </div>
             </div>
-
             <div class="skill-item">
               <div class="d-flex justify-content-between mb-2">
                 <span class="text-white">Bootstrap</span>
@@ -317,7 +321,6 @@
                 ></div>
               </div>
             </div>
-
             <div class="skill-item">
               <div class="d-flex justify-content-between mb-2">
                 <span class="text-white">Python</span>
@@ -331,7 +334,6 @@
                 ></div>
               </div>
             </div>
-
             <div class="skill-item">
               <div class="d-flex justify-content-between mb-2">
                 <span class="text-white">JavaScript</span>
@@ -349,14 +351,17 @@
         </div>
       </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="py-3">
       <div class="container py-2">
         <h2 class="section-title text-white">CONTACT</h2>
         <div class="row">
           <div class="col-lg-6 mx-auto">
-            <form action="https://formspree.io/f/xkgvpzve" method="post">
+            <form
+              action="https://formspree.io/f/xkgvpzve"
+              method="post"
+              id="contactForm"
+            >
               <div class="mb-3">
                 <input
                   type="text"
@@ -391,6 +396,7 @@
                 Send Message
               </button>
             </form>
+            <div id="formMessage mt-2 text-center text-success"></div>
             <div class="mt-4 text-center">
               <a href="https://github.com/lubwama1" class="text-white me-4"
                 ><i class="fab fa-github fa-2x links"></i
@@ -406,7 +412,6 @@
         </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer class="py-4 bg-secondary text-center text-white">
       <div class="container">
