@@ -1,0 +1,78 @@
+/* Custom Styles */
+body {
+  padding-top: 56px;
+  background-color: #1a1a1a;
+}
+
+.profile-img {
+  max-height: 300px;
+  border: 3px solid #0d6efd;
+  box-shadow: 0 0 20px rgba(13, 110, 253, 0.5);
+  transition: transform 0.3 ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.03);
+}
+.section-title {
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(13, 110, 253, 0.3);
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.progress {
+  height: 8px;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* Animation Classes */
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+.links {
+  transition: color 1s ease;
+}
+.links:hover {
+  color: #32d8e4;
+}
+textarea {
+  resize: none;
+}
+.desktop:hover {
+  box-shadow: 0px 10px 20px rgba(173, 181, 189, 1);
+}
+.projects:hover {
+  box-shadow: 0px 10px 20px rgba(46, 204, 113, 1);
+}
+.navbar-brand {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
