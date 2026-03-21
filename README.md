@@ -30,7 +30,7 @@ My portfolio includes:
 ## 📬 Contact Me
 I’m open to collaboration and freelance opportunities!  
 
-- **Email:** rayntukea@gmail.com  
-- **LinkedIn:** [Lubwama Dickson](https://www.linkedin.com/in/lubwamadickson)  
+- **Email:** rayntukea@gmail.com   
+- **LinkedIn:** [Lubwama Dickson](https://www.linkedin.com/in/lubwama-dickson-b65093369/)  
 - **GitHub:** [lubwama1](https://github.com/lubwama1)  
 - **YouTube:** [RaynCodes](https://youtube.com/@rayncodes)
