@@ -99,3 +99,13 @@ textarea {
     transform-origin: center;
 }
 
+
+
+.desktop-img {
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  background-color: white;
+  margin-bottom: 15px;
+}
