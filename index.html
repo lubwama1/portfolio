@@ -113,22 +113,28 @@
     <!-- About Section -->
     <section id="about" class="py-3 bg-light">
       <div class="container py-2">
-        <h2 class="section-title text-white">ABOUT</h2>
-        <div class="row">
+        <h2
+          class="section-title text-white text-center mb-0 animate__animated animate__fadeInDown"
+        >
+          ABOUT
+        </h2>
+        <div
+          class="divider mx-auto"
+          style="
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #0d6efd, #f7f7f7);
+          "
+        ></div>
+        <div class="row mt-4">
           <div class="col-lg-8 mx-auto">
-            <p class="lead text-white opacity-90">
-              I'm <strong>Lubwama Dickson</strong>, a self-taught programmer
-              specializing in Django development with a strong interest in
-              back-end systems and Tkinter-based desktop applications. My
-              journey in programming has equipped me with comprehensive skills
-              in web technologies including HTML, CSS, and JavaScript.
-            </p>
-            <p class="text-muted">
-              Beyond web development, I have a passion for exploring networking
-              concepts and ethical hacking. I enjoy solving complex problems and
-              building efficient, scalable solutions. My approach combines
-              technical expertise with creative problem-solving to deliver
-              robust applications.
+            <p class="lead text-dark opacity-90">
+              I'm <strong>Lubwama Dickson</strong>, I architect scalable web
+              applications, REST APIs, and database systems with
+              <span id="experience"></span> years of self-taught experience. My
+              technical stack includes Django, Django REST Framework,
+              PostgreSQL, SQLite, Tkinter for desktop apps, and frontend
+              technologies (HTML5, CSS3, JavaScript, Bootstrap).
             </p>
           </div>
         </div>
@@ -137,13 +143,29 @@
     <!-- Projects Section -->
     <section id="projects" class="py-3">
       <div class="container py-2">
-        <h2 class="section-title text-white">PROJECTS</h2>
+        <h2
+          class="section-title text-white text-center mb-0 animate__animated animate__fadeInDown"
+        >
+          PROJECTS
+        </h2>
+        <div
+          class="divider mx-auto"
+          style="
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #0d6efd, #228b01d3);
+          "
+        ></div>
 
         <!-- Web Projects -->
-        <h3 class="text-white mt-4 mb-3">Web Projects</h3>
-        <div class="row g-4">
+        <h3
+          class="text-muted text-center mt-4 animate__animated animate__fadeInUp animate__delay-1s"
+        >
+          Web Projects
+        </h3>
+        <div class="row g-4 mt-2 web-project-scroll">
           <!-- Web Project 1 -->
-          <div class="col-md-4 animate__animated animate__fadeInUp">
+          <div class="col-md-4" data-animation="flipInY" data-delay="0.1s">
             <div class="card bg-light border-success projects h-100">
               <div class="card-body d-flex flex-column">
                 <h3 class="card-title text-center text-success">E-Commerce</h3>
@@ -163,9 +185,7 @@
             </div>
           </div>
           <!-- Web Project 2 -->
-          <div
-            class="col-md-4 animate__animated animate__fadeInUp animate-delay-1"
-          >
+          <div class="col-md-4" data-animation="backInUp" data-delay="0.2s">
             <div class="card bg-light border-success projects h-100">
               <div class="card-body d-flex flex-column">
                 <h3 class="card-title text-center text-success">
@@ -195,9 +215,7 @@
             </div>
           </div>
           <!-- Web Project 3 -->
-          <div
-            class="col-md-4 animate__animated animate__fadeInUp animate-delay-2"
-          >
+          <div class="col-md-4" data-animation="backInUp" data-delay="0.3s">
             <div class="card bg-light border-success projects h-100">
               <div class="card-body d-flex flex-column">
                 <h3 class="card-title text-center text-success">Loan</h3>
@@ -225,9 +243,7 @@
             </div>
           </div>
           <!-- Web project 4 -->
-          <div
-            class="col-md-4 animate__animated animate__fadeInUp animate-delay-3"
-          >
+          <div class="col-md-4" data-animation="backInUp" data-delay="0.4s">
             <div class="card bg-light border-success projects h-100">
               <div class="card-body d-flex flex-column">
                 <h3 class="card-title text-center text-success">Movie Hub</h3>
@@ -256,9 +272,7 @@
           </div>
 
           <!-- Web project 5 -->
-          <div
-            class="col-md-4 animate__animated animate__fadeInUp animate-delay-3"
-          >
+          <div class="col-md-4" data-animation="backInUp" data-delay="0.5s">
             <div class="card bg-light border-success projects h-100">
               <div class="card-body d-flex flex-column">
                 <h3 class="card-title text-center text-success">
@@ -278,7 +292,7 @@
                     <i class="fab fa-github"></i> GitHub
                   </a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/watch?v=fjUdNtS3M5Y"
                     target="_blank"
                     class="btn btn-sm btn-outline-success mx-2"
                   >
@@ -291,8 +305,9 @@
         </div>
 
         <!-- Desktop GUI Projects -->
-        <h3 class="text-white mt-5 mb-3">Desktop GUI Projects</h3>
-        <div class="row g-4">
+        <h3 class="text-muted text-center mt-5">Desktop GUI Projects</h3>
+
+        <div class="row g-4 mt-2">
           <div class="col-md-4 animate__animated animate__fadeInUp">
             <a
               href="https://github.com/lubwama1/ChromaCalc---Calculator"
@@ -362,7 +377,15 @@
     <!-- Skills Section -->
     <section id="skills" class="py-3 bg-light">
       <div class="container py-2">
-        <h2 class="section-title text-white">SKILLS</h2>
+        <h2 class="section-title text-white text-center mb-0">SKILLS</h2>
+        <div
+          class="divider mx-auto"
+          style="
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #0d6efd, #f7f7f7);
+          "
+        ></div>
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="skill-item">
@@ -374,7 +397,7 @@
                 <div
                   class="progress-bar bg-primary"
                   role="progressbar"
-                  style="width: 65%"
+                  style="--width: 65%"
                 ></div>
               </div>
             </div>
@@ -387,7 +410,7 @@
                 <div
                   class="progress-bar bg-primary"
                   role="progressbar"
-                  style="width: 70%"
+                  style="--width: 70%"
                 ></div>
               </div>
             </div>
@@ -400,7 +423,7 @@
                 <div
                   class="progress-bar bg-primary"
                   role="progressbar"
-                  style="width: 60%"
+                  style="--width: 60%"
                 ></div>
               </div>
             </div>
@@ -413,7 +436,7 @@
                 <div
                   class="progress-bar bg-primary"
                   role="progressbar"
-                  style="width: 70%"
+                  style="--width: 70%"
                 ></div>
               </div>
             </div>
@@ -426,7 +449,7 @@
                 <div
                   class="progress-bar bg-primary"
                   role="progressbar"
-                  style="width: 40%"
+                  style="--width: 40%"
                 ></div>
               </div>
             </div>
@@ -437,8 +460,16 @@
     <!-- Contact Section -->
     <section id="contact" class="py-3">
       <div class="container py-2">
-        <h2 class="section-title text-white">CONTACT</h2>
-        <div class="row">
+        <h2 class="section-title text-white text-center mb-0">CONTACT</h2>
+        <div
+          class="divider mx-auto"
+          style="
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #0d6efd, #f7f7f7);
+          "
+        ></div>
+        <div class="row mt-4">
           <div class="col-lg-6 mx-auto">
             <form
               action="https://formspree.io/f/xkgvpzve"

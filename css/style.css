@@ -2,6 +2,7 @@
 body {
   padding-top: 56px;
   background-color: #1a1a1a;
+
 }
 
 .profile-img {
@@ -108,4 +109,21 @@ textarea {
   object-fit: contain;
   background-color: white;
   margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.progress-bar {
+  animation: fill 2s forwards;
+}
+
+@keyframes fill {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--width);
+  }
 }
